@@ -1,6 +1,11 @@
 import Link from 'next/link'
 
+export const metadata = {
+    title: "Tienda oficial"
+}
+
 const NavegadorLayout = ({ children }) => {
+
     return (
         <>
             <nav>
