@@ -1,3 +1,9 @@
+"use client"
+
 export default function HomePage() {
-    return <h1>Hola Martin</h1>
+    return (
+        <section>
+            <button onClick={() => { alert("Hola Martin") }}>Click</button>
+        </section>
+    )
 };
