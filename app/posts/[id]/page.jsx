@@ -9,7 +9,6 @@ async function Page({ params }) {
 
     const post = await loadPost(params.id)
 
-
     return (
         <div>
             <h1>{post.id} {post.title}</h1>
